@@ -33,9 +33,9 @@ This selection is intended to satisfy the project constraints:
 
 | Dataset                                                      | Task                         | n     | d    | Mixed Feature Type                  | Satisfied Requirements       | Target              |
 | :----------------------------------------------------------- | ---------------------------- | ----- | ---- | ----------------------------------- | ---------------------------- | ------------------- |
-| [Forest Fires](https://archive.ics.uci.edu/dataset/162/forest%2Bfires?utm_source=chatgpt.com) | Regression                   | 517   | 12   | Integer ,Categorical,Continuous     | regression,mixed             | area                |
-| [Metro Interstate Traffic Volume](https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume) | Regression                   | 48204 | 8    | Categorical,Continuous,Integer,Date | classification,mixed,n>10000 | traffic_volume      |
-| [Superconductivty](https://archive.ics.uci.edu/dataset/464/superconductivty+data) | Regression                   | 21263 | 81   | Continuous,Integer                  | classification,n>10000,d>50  | critical_temp       |
+| [Forest Fires](https://archive.ics.uci.edu/dataset/162/forest%2Bfires?utm_source=chatgpt.com) | Regression                   | 517   | 12   | Integer ,Categorical,Continuous     | Regression,mixed             | area                |
+| [Metro Interstate Traffic Volume](https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume) | Regression                   | 48204 | 8    | Categorical,Continuous,Integer,Date | Regression,mixed,n>10000     | traffic_volume      |
+| [Superconductivty](https://archive.ics.uci.edu/dataset/464/superconductivty+data) | Regression                   | 21263 | 81   | Continuous,Integer                  | Regression,n>10000,d>50      | critical_temp       |
 | [NATICUSdroid (Android Permissions)](NATICUSdroid (Android Permissions)) | Classification               | 29333 | 86   | Integer                             | classification,n>10000,d>50  | Result              |
 | [Secondary Mushroom Dataset](https://archive.ics.uci.edu/dataset/848/secondary%2Bmushroom%2Bdataset?utm_source=chatgpt.com) | Classification               | 61068 | 20   | Categorical,Continuous              | classification,mixed,n>10000 | class               |
 |                                                              |                              |       |      |                                     |                              |                     |
