@@ -95,3 +95,42 @@ pip install xrfm
 
 ```
 
+
+
+## 🗺️ Roadmap
+
+- [x] upload dataset
+- [ ] Data preprocess
+
+- [ ] Write Report introduction
+
+- [ ] Write Report **Methodology**
+
+- [ ] Regression Compare
+
+- [ ] Classification Compare
+
+- [ ] Result
+
+  - [ ]  Present a results table with datasets as rows and (model, metric) pairs as columns
+  - [ ] On one dataset, perform an interpretability comparison: extract the AGOP diagonal from each xRFM leaf and
+    compute PCA loadings, mutual information scores, and permutation importance on the same data. Where
+    do the methods agree and where do they diverge?
+  - [ ] On one large dataset (n > 10, 000), subsample the training set at several sizes and plot test performance and
+    training time versus n for all models
+
+- [ ] Write Report Result 
+
+- [ ] Write Discussion
+
+- [ ] Bonus:
+
+- **Bonus (+10%).** Implement the AGOP-based splitting criterion from scratch (without using xRFM library internals)
+
+  and verify it selects the same split direction as the library on a small dataset. Include this in an appendix with a brief
+
+  explanation. If you attempt this bonus section, please indicate on your title page by adding ”+bonus” in the project
+
+  title.
+
+- [ ] Write final report
